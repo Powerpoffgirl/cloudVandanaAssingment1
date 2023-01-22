@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"></link>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h3>Assingment 1</h3>
+        <form class="form">
+            <div>
+                <label for="iFName">Enter Firstname: </label>
+                <input class="inputText" id="iFName" type = 'text' placeholder="First Name"/>    
+            </div>
+            <div>
+                <label for="iFName">Enter Lastname: </label>
+                <input class="inputText" id="iLName" type = 'text' placeholder="Last Name"/>
+            </div>
+            <div>
+                <label for="iFName">Enter City: </label>
+                <input class="inputText" id="iCity" type = 'text' placeholder="City"/>    
+            </div>
+            <div>
+                <label for="iFName">Enter Country: </label>
+                <input class="inputText" id="iCountry" type = 'text' placeholder="Country"/>    
+            </div>
+       </form>
+        
+        <div class="buttons">
+            <button id="rowBottom">Add row to bottom</button>
+            <button id="rowTop">Add row to top</button>
+        </div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>SL.No.</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>City</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+.container{
+    margin-top:5vh;
+}
+
+.table{
+    margin-top:5vh;
+    border: 1px solid black;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4vh;
+    margin-bottom: 1vh;
+}
+
+input{
+    padding-left:1vw;
+}
+
+.buttons{
+    margin-top:4vh;
+    display: flex;
+    flex-direction:row;
+}
+
+button{
+    background-color: black;
+    color:white;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+#rowTop{
+    margin-left: 1vw;
+}
